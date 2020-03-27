@@ -1,9 +1,9 @@
-#include <ESP8266WiFi.h>
-#include <ESP8266mDNS.h>
-#include <ArduinoOTA.h>
-#include <Wire.h>                                               // Для работы с шиной I2C
+//#include <ESP8266WiFi.h>
+//#include <ESP8266mDNS.h>
+//#include <ArduinoOTA.h>
+//#include <Wire.h>                                               // Для работы с шиной I2C
 #include <APDS9930.h>                                           // Для работы с датчиком APDS-9930 
-#include <Ethernet.h>
+//#include <Ethernet.h>
 
 APDS9930 apds = APDS9930();                                     // Определяем объект apds, экземпляр класса APDS9930
 
