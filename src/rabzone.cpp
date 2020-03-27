@@ -5,7 +5,7 @@
 #include <APDS9930.h>                                           // Для работы с датчиком APDS-9930 
 #include <Ethernet.h>
 #include <Arduino.h>
-
+//
 APDS9930 apds = APDS9930();                                     // Определяем объект apds, экземпляр класса APDS9930
 
 
